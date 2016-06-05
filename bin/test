@@ -1,0 +1,36 @@
+#!/usr/bin/env node
+require('localenv');
+var handler = require('..').handler;
+
+const APPLICATION_ID = process.env.APPLICATION_ID;
+
+// Mocks
+var mockContext = {
+  fail: function() { console.error('Failed', arguments); },
+  succeed: function() { console.log('Succeeded', arguments); }
+}
+var mockEvent = {
+  "session": {
+    "sessionId": "SessionId.c0834b43-1019-4798-8823-6fc50a4b30c6",
+    "application": {
+      "applicationId": APPLICATION_ID
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AFP3ZWPOS2BGJR7OWJZ3DHPKMOMNWY4AY66FUR7ILBWANIHQN73QHHIK7PJUXGA26POF4WJR4N2IM73KUXCMRFPAHUXP54U2MHG7V4NUDZAXJYS3DQQKG24TPODBMAY4LDHZAXMQFNDLPFLLEQWVQYHDNPKSL7WJSLQG7NMR3RZ73M75GHBAPFMYGARBWWOOOA4UTJ5MSJMHZ7Y"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.23416606-5a02-4085-bb7d-ec63877febd1",
+    "timestamp": "2016-06-05T15:44:10Z",
+    "intent": {
+      "name": "GetTemperature",
+      "slots": {}
+    },
+    "locale": "en-US"
+  },
+  "version": "1.0"
+};
+
+handler(mockEvent, mockContext);
