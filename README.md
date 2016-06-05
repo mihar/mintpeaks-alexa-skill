@@ -5,7 +5,9 @@ Ability to query Mint Peaks through Alexa to get the current temperature and/or 
 When installed, simply utter things like:
 
 > Alexa, ask Mint Peaks for the temperature
+
 > Alexa, ask Mint Peaks what's the humidity
+
 > Alexa, ask Mint Peaks about the current state
 
 ## Other parts
