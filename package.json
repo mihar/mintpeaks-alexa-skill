@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/mihar/mintpeaks-alexa-skill.git"
   },
-  "author": "",
+  "author": "Miha Rebernik <miha at rebernik.info>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jmihar/mintpeaks-alexa-skill/issues"
