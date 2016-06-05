@@ -12,7 +12,7 @@ When installed, simply utter things like:
 
 [Watch the video](https://www.youtube.com/watch?v=h8MDnrGrJWE) to see it in action:
 
-[![Demo of Mintpeaks Alexa Skill](http://i.imgur.com/I7QyjIZ.gifv)](https://www.youtube.com/watch?v=h8MDnrGrJWE)
+[![Demo of Mintpeaks Alexa Skill](http://i.imgur.com/I7QyjIZ.gif)](https://www.youtube.com/watch?v=h8MDnrGrJWE)
 
 ## Other parts
 
