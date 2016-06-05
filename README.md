@@ -10,6 +10,10 @@ When installed, simply utter things like:
 
 > Alexa, ask Mint Peaks about the current state
 
+[Watch the video](https://www.youtube.com/watch?v=h8MDnrGrJWE) to see it in action:
+
+[![Demo of Mintpeaks Alexa Skill](http://i.imgur.com/I7QyjIZ.gifv)](https://www.youtube.com/watch?v=h8MDnrGrJWE)
+
 ## Other parts
 
 This repo is part of the mintpeaks ecosystem, these are the other parts you need to setup for it to work:
